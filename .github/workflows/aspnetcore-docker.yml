@@ -7,8 +7,8 @@ jobs:
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [macOS-latest, ubuntu-latest, windows-latest]
-        #os: [ubuntu-16.04]
+        os: [ubuntu-latest, windows-latest]
+        #os: [ubuntu-16.04, macOS-latest]
     steps:
     - uses: actions/checkout@v1
     - name: Build and test using Docker on Ubuntu

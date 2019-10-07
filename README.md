@@ -1,4 +1,4 @@
-# github-actions-demo
+# CI for ASP.Net Core 3.0 using GitHub Actions
 
 [![Build status](https://github.com/sankra/github-actions-demo/workflows/ASP.NET%20Core%20CI/badge.svg)](https://github.com/Sankra/github-actions-demo/actions) [![Build status](https://github.com/sankra/github-actions-demo/workflows/ASP.NET%20Core%20CI%20using%20Docker/badge.svg)](https://github.com/Sankra/github-actions-demo/actions)
 

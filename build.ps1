@@ -1,0 +1,1 @@
+docker build -t hjerpbakk/github-actions-demo .

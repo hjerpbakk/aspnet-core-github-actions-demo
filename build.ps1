@@ -1,2 +1,2 @@
 $tagName = "hjerpbakk/github-actions-demo"
-docker build -t $tagName
+docker build -t $tagName .

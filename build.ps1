@@ -1,2 +1,2 @@
-$command = 'docker build `-t hjerpbakk/github-actions-demo .'
-Invoke-Expression $command
+$tagName = "hjerpbakk/github-actions-demo"
+docker build -t $tagName

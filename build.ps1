@@ -1,2 +1,3 @@
 $tagName = "hjerpbakk/github-actions-demo"
-docker build -t $tagName .
+$dockerfile = "Dockerfile.windows"
+docker build -t $tagName -f $dockerfile .

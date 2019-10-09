@@ -15,7 +15,7 @@ jobs:
         chmod +x build.sh
         ./build.sh
       shell: bash
-      if: matrix.os == 'ubuntu-latest'
+      if: matrix.os == 'ubuntu-16.04'
     - name: Build and test using Docker on Windows
       run: ./build.ps1
       shell: powershell

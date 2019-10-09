@@ -4,3 +4,5 @@
 
 
 Educational repository showcasing building and testing an ASP.Net Core 3.0 application using GitHub Actions, with and without Docker.
+
+See [this blogpost](https://hjerpbakk.com/blog/2019/10/09/asp-net-core-docker-and-github-actions) for an in-depth explanation.
